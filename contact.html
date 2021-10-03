@@ -7,11 +7,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-		<title>Streaming</title>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>		<title>Landing Page</title>
 	</head>
 	<body>
-        <section class="sub-header">
+        <section class="header">
             <nav>
                 <a href="index.html"><img src="https://i.postimg.cc/fTHfgCtk/logo.png"</a>
                 <div class="nav-links" id="navLinks">
@@ -26,23 +25,42 @@
                 <i class="fa fa-bars" onclick="showMenu()"></i> 
             </nav>
 <div class="text-box">
-    <h1>Streaming</h1>
+    <h1> Contact Us</h1>
 </div>
         </section>
 
-<!-------streaming------->
-
-<section class="streaming">
-
+<!-----Contact us----->
+<section class="contact-us">
+    
     <div class="row">
-      <div class="streaming-col">
-            <h1> What is streaming? </h1>
-                <p>Streaming media is multimedia that is delivered and consumed in a continuous manner from a source, with little or no intermediate storage in network elements. Streaming refers to the delivery method of content, rather than the content itself.<br><br><br>Streaming lets you consume TV shows, movies, podcasts, and more online without downloading files that take up storage space on your device. Read on to learn how streaming on the internet works and how special tools — like a VPN — can open up your content options and protect your privacy while streaming.</p>
-                <a href="platforms.html" class="hero-btn red-btn">EXPLORE PLATFORMS</a>
+        <div class="contact-col">
+        <div>
+            <i class="fas fa-phone"></i>
+            <span>
+               <h5>+63-919-555-9119</h5>
+                <p>Monday to Saturday, 9AM to 4PM</p>
+            </span>
+        </div> 
+
+        <div class="contact-col"></div>
+        <div>
+            <i class="fas fa-envelope-square"></i>  
+            <span>
+               <h5>triohelpnation@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div> 
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="POST">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+<textarea rows="8" name="message" placeholder="Message" required></textarea>
+<button type="submit"class="hero-btn red-btn">Send Message</button>
+            </form>
         </div>
-     <div class="streaming-col">
-         <img src="https://i.postimg.cc/zfRmfVZS/stream.png"
-     </div>
+
     </div>
 </section>
 
