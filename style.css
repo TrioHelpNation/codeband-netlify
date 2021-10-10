@@ -82,7 +82,7 @@ nav img{
 }
 
 nav .fa{
-    display: block;
+    display: none;
     color:#fff;
     margin: 10px;
     font-size: 22px;
@@ -256,13 +256,19 @@ h3{
 .streaming-col img{
     width:100%;
 }
+.streaming-col1 img{
+    width:100%;
+}
 .streaming-col h1{
     padding-top: 0;
 }
 .streaming-col p{
     padding: 15px 0 25px;
 }
+.streaming-col ul{
+    padding: 15px 0 25px;
 
+}
 .red-btn{
     border: 1px solid #f44336;
     background: transparent;
