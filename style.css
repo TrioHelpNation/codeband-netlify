@@ -258,6 +258,10 @@ h3{
 }
 .streaming-col1 img{
     width:100%;
+    margin: auto;
+    margin-top: 120px;
+    margin-left: auto;
+    padding: 10px;
 }
 .streaming-col h1{
     padding-top: 0;
